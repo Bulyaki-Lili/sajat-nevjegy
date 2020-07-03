@@ -1,0 +1,83 @@
+.profile-card {
+  width: 50%;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.head{
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+.profile-image{
+  margin-top: -50px;
+}
+
+body {
+  background: url('assets/mediterranean-sea.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+h2, span, p{
+  margin: 0 auto;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 95px;
+}
+
+li{
+  display:inline;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin:0 auto;
+  color: black;
+}
+
+.fa fa-map-marker, p {
+  padding: 0 0;
+}
+
+#content{
+  text-align: center;
+  border: 0;
+  margin: 0 auto;
+}
+
+#second-h2{
+  margin-top: 10px;
+}
+
